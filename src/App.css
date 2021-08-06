@@ -1,0 +1,32 @@
+body{
+  width:100%;
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+background-color: black;
+}
+.grid{
+      width: 20px;
+      height: 20px;
+      background-color: white;
+      outline: 2px solid rgba(144, 175, 175, 0.75);
+      display: inline-block;
+      
+    }
+
+
+.node{
+  font-size: 0px;
+  text-align: center;
+  position:relative;
+  top:280px;;
+  
+}
+
+.alive{
+  background-color: rgb(0, 153, 255);
+}
+
+.primary{
+  text-align: center;
+}
